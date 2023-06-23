@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>c-home</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js' crossorigin='anonymous'></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <style>
+         .header{
+            height: 699px;
+            width: 100%;
+            background-image: url(girl-img.webp);
+         }
+
+         .icone{
+            padding-left: 173px;
+            margin-top: 68px;
+            cursor: pointer;
+         }
+
+         .house{
+            color: blue;
+            margin-top: -22px;
+            padding-left: 395px;
+            cursor: pointer;
+         }
+
+         .shop{
+            margin-top: -34px;
+            padding-left: 474px;
+         }
+
+         .shop:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+         .features{
+            margin-top: -32px;
+            padding-left: 547px;
+         }
+
+         .features:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+         .cycle{
+           height: 17px;
+           width: 35px;
+           background-color: red;
+           border-radius: 40px;
+           margin-left: 587px;
+           margin-top: -70px;
+         }
+
+         .hot{
+            color: white;
+         }
+
+         .blog{
+            margin-top: 18px;
+            padding-left: 642px;
+         }
+
+         .blog:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+         .about{
+            margin-top: -36px;
+            padding-left: 716px;
+         }
+
+         .about:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+         .contact{
+            margin-top: -36px;
+            padding-left: 798px;
+         }
+
+         .contact:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+         .women{
+            font-size: 35px;
+            margin-left: 154px;
+            padding-top: 37px;
+         }
+
+         .new{
+            font-size: 65px;
+            padding-left: 173px;
+            margin-top: 11px;
+         }
+
+         .class{
+            height: 40px;
+            width: 137px;
+            background-color: skyblue;
+            border-radius: 40px;
+            margin-left: 173px;
+         }
+
+         .now{
+            text-align: center;
+            padding-top: 10px;
+            color: white;
+            cursor: pointer;
+         }
+
+         .class:hover{
+            background-color:black;
+         }
+
+
+
+         .cointer1{
+            height: 368px;
+            width: 100%;
+            background-color: #fff;
+         }
+
+        .box1{
+         height: 251px;
+         width: 370px;
+         background-color: brown;
+         margin-left: 184px;
+         margin-top: 50px;
+         cursor: pointer;
+         background-image: url(first-girl.webp);
+         background-size: contain;
+        }
+
+        .box2{
+         height: 251px;
+         width: 370px;
+         background-color: brown;
+         margin-left: 594px;
+         margin-top: -273px;
+         cursor: pointer;
+         background-image: url(boy.webp);
+         background-size: contain;
+        }
+
+        .box3{
+         height: 251px;
+         width: 370px;
+         background-color: brown;
+         margin-left: 1004px;
+         margin-top: -272px;
+         cursor: pointer;
+         background-image: url(cap.webp);
+         background-size: contain;
+        }
+
+        .no{
+         font-weight: bold;
+         padding-top: 33px;
+         margin-left: 30px;
+        }
+
+        .spring{
+         padding-top: -1px;
+         margin-left: 30px;
+        }
+
+        .men{
+         font-weight: bold;
+         padding-top: 33px;
+         margin-left: 30px;
+        }
+
+        .spring2{
+         padding-top: -1px;
+         margin-left: 30px;
+        }
+
+        .accessories{
+         font-weight: bold;
+         padding-top: 33px;
+         margin-left: 30px;
+        }
+
+        .spring3{
+         padding-top: -1px;
+         margin-left: 30px;
+        }
+
+        .PRODUCT{
+         font-weight: bold;
+         padding-top: 82px;
+         margin-left: 179px;
+        }
+
+
+        .header1{
+         height: 532px;
+         width: 100%;
+        }
+
+        .Products{
+         font-size: 18px;
+         margin-left: 173px;
+         padding-top: 30px;
+         color: #3a0000;
+         text-decoration: underline;
+        }
+
+        .Women{
+         font-size: 18px;
+         margin-left: 157px;
+         margin-top: 37px;
+         color: gray;
+        }
+
+        .Women:hover{
+         text-decoration: underline;
+         color: black;
+        }
+
+        .Men1{
+         font-size: 18px;
+         margin-left: 399px;
+         margin-top: -37px;
+         color: gray;
+        }
+
+        .Men1:hover{
+         text-decoration: underline;
+         color: black;
+        }
+
+        .Bag{
+         font-size: 18px;
+         margin-left: 471px;
+         margin-top: -37px;
+         color: gray;
+        }
+
+        .Bag:hover{
+         text-decoration: underline;
+         color: black;
+        }
+
+        .Shoes{
+         font-size: 18px;
+         margin-left: 542px;
+         margin-top: -37px;
+         color: gray;
+        }
+
+        .Shoes:hover{
+         text-decoration: underline;
+         color: black;
+        }
+
+        .Watches{
+         font-size: 18px;
+         margin-left: 631px;
+         margin-top: -37px;
+         color: gray;
+        }
+
+        .Watches:hover{
+         text-decoration: underline;
+         color: black;
+        }
+
+        .Filter{
+         height: 43px;
+         width: 90px;
+         text-align: center;
+         margin-left: 1156px;
+         margin-top: -20px;
+        }
+
+        .wi{
+         height: 19px;
+         width: 19px;
+         margin-right: 64px;
+         padding-top: 14px;
+         border: 1px solid #e6e6e6;
+         border-radius: 3px;
+        }
+
+        .wi:hover{
+         color: #fff;
+        }
+
+        .Filte{
+         font-size: 17px;
+         text-align: center;
+         margin-top: -23px;
+        }
+
+
+
+        .aniket2{
+         height: 43px;
+         width: 90px;
+         text-align: center;
+         margin-left: 104px;
+         margin-top: -52px;
+        }
+
+        .searc{
+         height: 19px;
+         width: 19px;
+         margin-right: 64px;
+         padding-top: 14px;
+        }
+
+        .Search{
+         font-size: 17px;
+         text-align: center;
+         margin-top: -23px;
+        }
+
+
+        .box4{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: -1093px;
+         margin-top: 20px;
+         background-image: url(girl-1.webp);
+         background-size: contain;
+        }
+        
+
+        .box4:hover{
+         background-size: 273px 336px;
+         animation: backgroundIMG 2s ease-in-out 2s;
+         animation-fill-mode: forwards;
+         transition: transform 0.9s ease;
+         webkit-transition: transform 0.9s ease;
+        }
+        
+        .box5{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: -793px;
+         margin-top: -301px;
+         background-size: contain;
+         background-image: url(girl-2.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box5:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box6{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: -491px;
+         margin-top: -301px;
+         background-size: contain;
+         background-image: url(boy-1.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box6:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box7{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: -191px;
+         margin-top: -301px;
+         background-size: contain;
+         background-image: url(girl-3.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box7:hover{
+         height: 310px;
+         width: 279px;
+        }
+        
+        .Esprit{
+         font-size: 16px;
+         margin-left: -2173px;
+         margin-top: 20px;
+         color: #999;
+        }
+
+        .Esprit:hover{
+         color: blue;
+        }
+
+        .number{
+         font-size: 16px;
+         margin-left: -2240px;
+         margin-top: 20px;
+        }
+
+        .Herschel{
+         font-size: 16px;
+         margin-left: -1575px;
+         margin-top: -76px;
+         color: #999;
+        }
+
+        .Herschel:hover{
+         color: blue;
+        }
+
+
+        .heart{
+         margin-left: -904px;
+         margin-top: -42px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .number1{
+         font-size: 16px;
+         margin-left: -1636px;
+         margin-top: 20px;
+        }
+
+        .heart1{
+         margin-left: -597px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart1:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Only{
+         font-size: 16px;
+         margin-left: -948px;
+         margin-top: -76px;
+         color: #999;
+        }
+
+        .Only:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .number2{
+         font-size: 16px;
+         margin-left: -1032px;
+         margin-top: 20px;
+        }
+
+        .heart2{
+         margin-left: -295px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart2:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Classic{
+         font-size: 16px;
+         margin-left: -344px;
+         margin-top: -76px;
+         color: #999;
+        }
+
+        .Classic:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .heart3{
+         margin-left: 4px;
+         margin-top: -38px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart3:hover {
+         color: blue;
+         opacity: 1;
+      }
+
+        .number3{
+         font-size: 16px;
+         margin-left: -429px;
+         margin-top: 20px;
+        }
+
+
+
+        .header2{
+         height: 416px;
+         width: 100%;
+        }
+
+        .box8{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 169px;
+         background-size: contain;
+         background-image: url(girl-4.webp);
+        }
+
+        .box8:hover{
+         background-size: 273px 336px;
+         animation: backgroundIMG 2s ease-in-out 2s;
+         animation-fill-mode: forwards;
+         transition: transform 0.9s ease;
+         webkit-transition: transform 0.9s ease;
+        }
+
+        .box9{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 470px;
+         background-size: contain;
+         margin-top: -301px;
+         background-image: url(clock.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box9:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box10{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 767px;
+         background-size: contain;
+         margin-top: -301px;
+         background-image: url(girl-5.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box10:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box11{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 1066px;
+         background-size: contain;
+         margin-top: -301px;
+         background-image: url(girl-6.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box11:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .Front{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+         color: #999;
+        }
+
+        .Front:hover{
+         color: blue;
+        }
+
+        .number4{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+        }
+
+        .heart4{
+         margin-left: 411px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart4:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Vintage{
+         font-size: 16px;
+         margin-left: 469px;
+         margin-top: -77px;
+         color: #999;
+        }
+
+        .Vintage:hover{
+         color: blue;
+        }
+
+        .number5{
+         font-size: 16px;
+         margin-left: 471px;
+         margin-top: 20px;
+        }
+
+        .heart5{
+         margin-left: 711px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart5:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Shirt{
+         font-size: 16px;
+         margin-left: 767px;
+         margin-top: -77px;
+         color: #999;
+        }
+
+        .Shirt:hover{
+         color: blue;
+        }
+
+        .number6{
+         font-size: 16px;
+         margin-left: 766px;
+         margin-top: 20px;
+        }
+
+        .heart6{
+         margin-left: 1011px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart6:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Pieces{
+         font-size: 16px;
+         margin-left: 1065px;
+         margin-top: -77px;
+         color: #999;
+        }
+
+        .Pieces:hover{
+         color: blue;
+        }
+
+        .number7{
+         font-size: 16px;
+         margin-left: 1066px;
+         margin-top: 20px;
+        }
+
+        .heart7{
+         margin-left: 1311px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart7:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+
+        .header3{
+         height: 416px;
+         width: 100%;
+        }
+
+        .box12{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 169px;
+         background-size: cover;
+         background-image: url(show.webp);
+         background-repeat: no-repeat;
+         
+        }
+
+        .box12:hover{
+         background-size: 273px 336px;
+         animation: backgroundIMG 2s ease-in-out 2s;
+         animation-fill-mode: forwards;
+         transition: transform 0.9s ease;
+         webkit-transition: transform 0.9s ease;
+        }
+
+        .box13{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 470px;
+         margin-top: -300px;
+         background-size: contain;
+         transition: width 1s, height 2s;
+         background-image: url(girl-7.webp);
+        }
+        
+        .box13:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box14{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 769px;
+         margin-top: -300px;
+         background-size: contain;
+         background-image: url(boy-2.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box14:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box15{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 1070px;
+         margin-top: -300px;
+         background-size: contain;
+         transition: width 1s, height 2s;
+         background-image: url(balt.webp);
+        }
+
+        .box15:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .Converse{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+         color: #999;
+        }
+
+        .Converse:hover{
+         color: blue;
+        }
+
+        .number8{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+        }
+
+        .heart8{
+         margin-left: 411px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart8:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Femme{
+         font-size: 16px;
+         margin-left: 468px;
+         margin-top: -74px;
+         color: #999;
+        }
+
+        .Femme:hover{
+         color: blue;
+        }
+
+        .number9{
+         font-size: 16px;
+         margin-left: 468px;
+         margin-top: 20px;
+        }
+
+        .heart9{
+         margin-left: 713px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart9:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Herschel1{
+         font-size: 16px;
+         margin-left: 771px;
+         margin-top: -74px;
+         color: #999;
+        }
+
+        .Herschel1:hover{
+         color: blue;
+        }
+
+        .number10{
+         font-size: 16px;
+         margin-left: 768px;
+         margin-top: 20px;
+        }
+
+        .heart10{
+         margin-left: 1010px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart10:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+        .Herschel2{
+         font-size: 16px;
+         margin-left: 1072px;
+         margin-top: -74px;
+         color: #999;
+        }
+
+        .Herschel2:hover{
+         color: blue;
+        }
+
+        .number11{
+         font-size: 16px;
+         margin-left: 1069px;
+         margin-top: 20px;
+        }
+
+        .heart11{
+         margin-left: 1310px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+        }
+
+        .heart11:hover{
+         color: blue;
+         opacity: 1;
+        }
+
+
+
+        .header4{
+         height: 684px;
+         width: 100%;
+        }
+
+        .box16{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 169px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-image: url(girl-8.webp);
+        }
+
+        .box16:hover{
+         background-size: 273px 336px;
+         animation: backgroundIMG 2s ease-in-out 2s;
+         animation-fill-mode: forwards;
+         transition: transform 0.9s ease;
+         webkit-transition: transform 0.9s ease;
+        }
+
+        .box17{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 471px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-top: -300px;
+         background-image: url(t-shart.webp);
+         transition: width 1s, height 2s;
+        }
+
+        .box17:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box18{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 769px;
+         margin-top: -300px;
+         background-size: contain;
+         transition: width 1s, height 2s;
+         background-image: url(watch.webp);
+        }
+
+        .box18:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .box19{
+         height: 300px;
+         width: 269px;
+         background-color: brown;
+         margin-left: 1070px;
+         margin-top: -300px;
+         background-size: contain;
+         transition: width 1s, height 2s;
+         background-image: url(girl-9.webp);
+        }
+
+        .box19:hover{
+         height: 310px;
+         width: 279px;
+        }
+
+        .T-Shirt{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+         color: #999;
+        }
+
+        .T-Shirt:hover{
+         color: blue;
+        }
+
+        .number12{
+         font-size: 16px;
+         margin-left: 166px;
+         margin-top: 20px;
+        }
+        
+        .heart12{
+         margin-left: 411px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+      }
+        
+      .heart12:hover{
+         opacity: 1;
+         color: blue;
+      }
+
+      .Pretty{
+         font-size: 16px;
+         margin-left: 468px;
+         margin-top: -74px;
+         color: #999;
+      }
+
+      .Pretty:hover{
+         color: blue;
+      }
+
+      .number13{
+         font-size: 16px;
+         margin-left: 468px;
+         margin-top: 20px;
+      }
+
+      .heart13{
+         margin-left: 713px;
+         margin-top: -76px;
+         font-size: 28px;
+         position: absolute;
+         opacity: 0.1;
+      }
+
+      .heart13:hover{
+         color: blue;
+         opacity: 1;
+      }
+
+      .Mini{
+         font-size: 16px;
+         margin-left: 771px;
+         margin-top: -74px;
+         color: #999;
+         }
+
+         .Mini:hover{
+            color: blue;
+         }
+      
+         .number14{
+            font-size: 16px;
+            margin-left: 768px;
+            margin-top: 20px;
+         }
+
+         .heart14{
+            margin-left: 1010px;
+            margin-top: -76px;
+            font-size: 28px;
+            position: absolute;
+            opacity: 0.1;
+         }
+
+         .heart14:hover{
+            opacity: 1;
+            color: blue;
+         }
+
+         .Square{
+            font-size: 16px;
+            margin-left: 1072px;
+            margin-top: -74px;
+            color: #999;
+         }
+
+         .Square:hover{
+            color: blue;
+         }
+
+         .number15{
+            font-size: 16px;
+            margin-left: 1069px;
+            margin-top: 20px;
+         }
+
+         .heart15{
+            margin-left: 1310px;
+            margin-top: -76px;
+            font-size: 28px;
+            position: absolute;
+            opacity: 0.1;
+         }
+
+         .heart15:hover{
+            opacity: 1;
+            color: blue;
+         }
+
+         .icone2{
+            height: 45px;
+            width: 170px;
+            border-radius: 60px;
+            background-color: #e6e6e6;
+            margin-left: 673px;
+            margin-top: 100px;
+         }
+
+         .icone2:hover{
+            color: black;
+         }
+
+
+         .lode{
+            padding-top: 15px;
+            text-align: center;
+         }
+
+         .lode:hover{
+            color: white;
+         }
+
+
+         .footer{
+            height: 521px;
+            width: 100%;
+            background-color: black;
+         }
+
+         .categories{
+            font-size: 15px;
+            padding-left: 159px;
+            padding-top: 97px;
+            color: #fff;
+            font-weight: bold;
+         }
+
+         .Women1{
+            font-size: 15px;
+            margin-left: 159px;
+            padding-top: 57px;
+         }
+
+         .Women1:hover{
+            color: blue;
+         }
+
+         .Men2{
+            font-size: 15px;
+            margin-left: 159px;
+            padding-top: 15px; 
+            color: gray;
+         }
+
+         .Men:hover{
+            color: blue;
+         }
+
+         .Shoes1{
+            font-size: 15px;
+            margin-left: 159px;
+            padding-top: 19px; 
+            color: gray;
+         }
+
+         .Shoes:hover{
+            color: blue;
+         }
+
+         .Watches1{
+            font-size: 15px;
+            margin-left: 159px;
+            padding-top: 16px; 
+            color: gray;
+         }
+
+         .Watches1:hover{
+            color: blue
+         }
+
+         .help{
+            font-size: 15px;
+            padding-left: 466px;
+            margin-top: -241px;
+            color: #fff;
+            font-weight: bold;
+         }
+
+         .Track{
+            font-size: 15px;
+            margin-left: 465px;
+            padding-top: 23px;
+            color: gray;
+         }
+
+         .Track:hover{
+            color: blue;
+         }
+
+         .Returns{
+            font-size: 15px;
+            margin-left: 463px;
+            padding-top: 15px;
+            color: gray;
+         }
+
+         .Returns:hover{
+            color: blue;
+         }
+
+         .Shipping{
+            font-size: 15px;
+            margin-left: 462px;
+            padding-top: 14px;
+            color: gray;
+         }
+
+         .Shipping:hover{
+            color: blue;
+         }
+
+         .faq{
+            font-size: 15px;
+            margin-left: 462px;
+            padding-top: 14px;
+            color: gray;
+         }
+
+         .faq:hover{
+            color: blue;
+         }
+
+         .get{
+            font-size: 15px;
+            margin-top: -231px;
+            color: #fff;
+            font-weight: bold;
+            padding-left: 697px;
+         }
+
+         .Any{
+            color: gray;
+            padding-left: 699px;
+         }
+
+         .Women2{
+            margin-left: 300px;
+            margin-top: -35px;
+         }
+
+         .fackbook{
+            color: darkgray;
+            height: 15px;
+            width: 15px;
+            margin-left: 699px;
+            margin-top: 10px;
+         }
+
+         .instagram{
+            color: darkgray;
+            height: 15px;
+            width: 15px;
+            padding-top: 24px;
+            margin-left: 10px;
+         }
+
+         .p{
+            color: darkgray;
+            height: 15px;
+            width: 15px;
+            padding-top: 24px;
+            margin-left: 10px;
+         }
+
+         .new1{
+            font-size: 15px;
+            margin-top: -154px;
+            color: #fff;
+            font-weight: bold;
+            padding-left: 1041px;
+         }
+
+         .fname{
+            height: 53px;
+            width: 347px;
+            background-color: black;
+            margin-left: 1041px; 
+            font-size: 20px;
+            color: #fff;
+            }
+
+            .subs{
+               height: 45px;
+               width: 191px;
+               background-color: blue;
+               border-radius: 30px;
+               margin-left: 1041px;
+               margin-top: 30px;
+            }
+
+            .subs:hover{
+               background-color: #fff;
+            }
+
+            .subscribe{
+               font-size: 17px;
+               color: #fff;
+               text-align: center;
+               padding-top: 11px;
+            }
+
+            
+            .subscribe:hover{
+               color: blue;
+               opacity: 1;
+            }
+
+            .paypal{
+               margin-left: -407px;
+               height: 23px;
+               width: 29px;
+               margin-top: 190px;
+               border-radius: 26%;
+            }
+
+            .visa{
+               margin-left: 0px;
+               height: 23px;
+               width: 29px;
+               margin-top: 190px;
+               border-radius: 26%;
+            }
+
+            .ka-img{
+               margin-left: 0px;
+               height: 23px;
+               width: 29px;
+               margin-top: 190px;
+               border-radius: 26%;
+            }
+
+            .maig{
+               margin-left: 0px;
+               height: 23px;
+               width: 29px;
+               margin-top: 190px;
+               border-radius: 26%;
+            }
+
+            .da-img{
+               margin-left: 0px;
+               height: 23px;
+               width: 29px;
+               margin-top: 190px;
+               border-radius: 26%;
+            }
+
+            .Copyright{
+               color: gray;
+               margin-top: 19px;
+               margin-left: -565px;
+            }
+
+            .heart16{
+               color: #fff;
+               opacity: 0.4;
+            }
+
+            .Colorlib{
+               color: blue;
+            }
+
+            .Colorlib:hover{
+               color: blue;
+               opacity: 0.8;
+            }
+      </style>
+   </head>
+   <body>
+      <!--thise is my first coniter-->
+      <div class="header">
+         <img src="icone-1.webp" alt="icone" class="icone">
+         <p class="house">Home</p>
+         <p class="shop">Shop</p>
+         <p class="features">Features</p>
+         <div class="cycle">
+            <p class="hot">HOT</p>
+         </div>
+         <p class="blog">Blog</p>
+         <p class="about">About</p>
+         <p class="contact">Contact</p>
+         <h1 class="women">Women Collection 2018</h1>
+         <h1 class="new">NEW SEASON</h1>
+         <div class="class">
+            <p class="now">SHOP NOW</p>
+         </div>
+      </div>
+         <!-- my first cointer is don-->
+         <!--thise is my second cointer-->
+         <div class="cointer1">
+            <div class="box1">
+               <h1 class="no">WOMEN</h1>
+               <p class="spring">spring 2018</p>
+            </div>
+            <div class="box2">
+               <h1 class="men">MEN</h1>
+               <p class="spring2">spring 2018</p>
+            </div>
+            <div class="box3">
+               <h1 class="accessories">accessories</h1>
+               <p class="spring3">spring 2018</p>
+            </div>
+            <h1 class="PRODUCT">PRODUCT OVERVIEW</h1>
+         </div>
+         <!-- my second cointer is don -->
+         <!-- thise is my third cointer -->
+         <div class="header1">
+            <p class="Products">All Products</p>
+            <p class="Women2">Women</p>
+            <p class="Men1">Men</p>
+            <p class="Bag">Bag</p>
+            <p class="Shoes">Shoes</p>
+            <p class="Watches">Watches</p>
+            <div class="Filter">
+               <img src="wi-fiimg.png" alt="wi-fiimg" class="wi">
+               <p class="Filte">Filter</p>
+               <div class="aniket2">
+                  <img src="search-icon.png" alt="search" class="searc">
+                  <p class="Search">Search</p>
+                  <div class="box4"></div>
+                  <div class="box5"></div>
+                  <div class="box6"></div>
+                  <div class="box7"></div>
+                  <p class="Esprit">Esprit Ruffle Shirt</p>
+                  <i class="fa fa-heart heart"></i>
+                  <p class="number">$16.64</p>
+                  <p class="Herschel">Herschel supply</p>
+                  <p class="number1">$35.31</p>
+                  <i class="fa fa-heart heart1"></i>
+                  <p class="Only">Only Check Trouser</p>
+                  <p class="number2">$25.50</p>
+                  <i class="fa fa-heart heart2"></i>
+                  <p class="Classic">Classic Trench Coat</p>
+                  <i class="fa fa-heart heart3"></i>
+                  <p class="number3">$75.00</p>
+               </div>
+            </div>
+         </div>
+         <!-- my sthird coniter is done -->
+         <!-- thise is my third coniter-->
+         <div class="header2">
+            <div class="box8"></div>
+            <div class="box9"></div>
+            <div class="box10"></div>
+            <div class="box11"></div>
+            <p class="Front">Front Pocket Jumper</p>
+            <p class="number4">$34.75</p>
+            <i class="fa fa-heart heart4"></i>
+            <p class="Vintage">Vintage Inspired Classic</p>
+            <p class="number5">$93.20</p>
+            <i class="fa fa-heart heart5"></i>
+            <p class="Shirt">Shirt in Stretch Cotton</p>
+            <p class="number6">$52.66</p>
+            <i class="fa fa-heart heart6"></i>
+            <p class="Pieces">Pieces Metallic Printed</p>
+            <p class="number7">$18.96</p>
+            <i class="fa fa-heart heart7"></i>
+         </div>
+         <!-- my third coniter is don-->
+         <!-- thise is my forth contir-->
+         <div class="header3">
+            <div class="box12"></div>
+            <div class="box13"></div>
+            <div class="box14"></div>
+            <div class="box15"></div>
+            <p class="Converse">Converse All Star Hi Plimsolls</p>
+            <p class="number8">$75.00</p>
+            <i class="fa fa-heart heart8"></i>
+            <p class="Femme">Femme T-Shirt In Stripe</p>
+            <p class="number9">$25.85</p>
+            <i class="fa fa-heart heart9"></i>
+            <p class="Herschel1">Herschel supply</p>
+            <p class="number10">$63.16</p>
+            <i class="fa fa-heart heart10"></i>
+            <p class="Herschel2">Herschel supply</p>
+            <p class="number11">$63.15</p>
+            <i class="fa fa-heart heart11"></i>
+         </div>
+         <!-- my forth contir is done-->
+         <!-- thise is my fifth conter-->
+         <div class="header4">
+            <div class="box16"></div>
+            <div class="box17"></div>
+            <div class="box18"></div>
+            <div class="box19"></div>
+            <p class="T-Shirt">T-Shirt with Sleeve</p>
+            <p class="number12">$18.49</p>
+            <i class="fa fa-heart heart12"></i>
+            <p class="Pretty">Pretty Little Thing</p>
+            <p class="number13">$54.79</p>
+            <i class="fa fa-heart heart13"></i>
+            <p class="Mini">Mini Silver Mesh Watch</p>
+            <p class="number14">$86.85</p>
+            <i class="fa fa-heart heart14"></i>
+            <p class="Square">Square Neck Back</p>
+            <p class="number15">$29.64</p>
+            <i class="fa fa-heart heart15"></i>
+            <div class="icone2">
+               <p class="lode">LOAD MORE</p>
+            </div>
+         </div>
+         <!-- my fifth contier is done -->
+         <!-- hise is my sixth contier -->
+         <div class="footer">
+            <p class="categories">CATEGORIES</p>
+            <p class="Women">Women</p>
+               <p class="Men2">Men</p>
+               <p class="Shoes1">Shoes</p>
+               <p class="Watches1">Watches</p>
+               <p class="help">HELP</p>
+               <p class="Track">Track Order</p>
+               <p class="Returns">Returns</p>
+               <p class="Shipping">Shipping</p>
+               <p class="faq">FAQs</p>
+               <p class="get">GET IN TOUCH</p>
+               <p class="Any">Any questions? Let us know in store at 8th<br>
+               floor, 379 Hudson St, New York, NY 10018 or<br>
+               call us on (+1) 96 716 6879</p>
+               <img src="fackbook-icon.png" alt="fackbook" class="fackbook">
+               <img src="instagram.jpeg" alt="instagram" class="instagram">
+               <img src="p-icon.jpg" alt="p-icon" class="p">
+               <p class="new1">NEWSLETTER</p>
+               <input type="text" class="fname" name="fname" placeholder="email@example.com">
+               <div class="subs">
+                  <p class="subscribe">SUBSCRIBE</p>
+                  <img src="paypal.png" ant="paypal" class="paypal">
+                  <img src="visa.webp" ant="visa" class="visa">
+                  <img src="ka-img.webp" alt="ka-img" class="ka-img">
+                  <img src="maig.webp" alt="maig" class="maig">
+                  <img src="da-img.webp" alt="da-img" class="da-img">
+                  <p class="Copyright">Copyright ©2023 All rights reserved | This template is made with <i class="fa fa-heart heart16"></i>by <span class="Colorlib">Colorlib</span></p>
+               </div>
+         </div>
+      </body>
+</html>
